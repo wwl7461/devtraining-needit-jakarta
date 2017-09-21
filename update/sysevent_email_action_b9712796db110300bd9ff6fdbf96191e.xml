@@ -25,12 +25,12 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Dear ${assigned_to.first_name},</p>
-<p>An overdue NeedIt task is assigned to you.</p>
+<p>An overdue NeedIt Task is assigned to you:</p>
 <p>Number: ${number}</p>
 <p>Short description: ${short_description}</p>
 <p>Please complete this task as soon as possible.</p>
-<p>Click here to view the NeedIt Task record: ${URI_REF}.</p>
-<pre class="monospaceing ng-isolate-scope language- language-undefined"><code class="ng-binding language-undefined">${mail_<a href="script:CountOverdueNeedItTasksAssignedTo}">script:CountOverdueNeedItTasksAssignedTo}</a></code></pre>]]></message_html>
+<p>Click here to view the NeedIt Task record: ${URI_REF}</p>
+<p>${mail_script:CountOverdueNeedItTasksAssignedTo}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -39,7 +39,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>wwl7461@yahoo.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -48,21 +48,21 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-07 16:14:25</sys_created_on>
+        <sys_created_on>2017-09-21 21:44:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b37f867ddb454300bd9ff6fdbf96195e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>b9712796db110300bd9ff6fdbf96191e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sysevent_email_action_b37f867ddb454300bd9ff6fdbf96195e</sys_update_name>
+        <sys_update_name>sysevent_email_action_b9712796db110300bd9ff6fdbf96191e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-07 17:11:23</sys_updated_on>
+        <sys_updated_on>2017-09-21 23:02:07</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

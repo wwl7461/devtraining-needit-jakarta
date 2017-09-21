@@ -22,20 +22,18 @@
 	// Print to the Message field on a notification 
 	template.print("In addition to this overdue NeedIt Task, you have " + (overdueNITasks.getRowCount() - 1) + " more overdue NeedIt Tasks.");
 
-
-
 })(current, template, email, email_action, event);]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-07 17:03:04</sys_created_on>
-        <sys_id>a1ca96f1db854300bd9ff6fdbf96196f</sys_id>
+        <sys_created_on>2017-09-21 22:20:23</sys_created_on>
+        <sys_id>7db92b1edb910300bd9ff6fdbf961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CountOverdueNeedItTasksAssignedTo</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_email_a1ca96f1db854300bd9ff6fdbf96196f</sys_update_name>
+        <sys_update_name>sys_script_email_7db92b1edb910300bd9ff6fdbf961900</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-07 17:03:04</sys_updated_on>
+        <sys_updated_on>2017-09-21 22:20:23</sys_updated_on>
     </sys_script_email>
 </record_update>
